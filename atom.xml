@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://warchanged.github.io</id>
     <title>Gridea</title>
-    <updated>2020-04-14T04:22:07.264Z</updated>
+    <updated>2020-04-14T04:33:26.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://warchanged.github.io"/>
     <link rel="self" href="https://warchanged.github.io/atom.xml"/>
@@ -11,35 +11,43 @@
     <icon>https://warchanged.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://warchanged.github.io/post/hello-gridea/</id>
-        <link href="https://warchanged.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[想用谷歌？]]></title>
+        <id>https://warchanged.github.io/post/xiang-yong-gu-ge/</id>
+        <link href="https://warchanged.github.io/post/xiang-yong-gu-ge/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2020-04-14T04:23:27.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>镜像网站<br>
+谷歌服务在国内不可用，这其中包括了谷歌学术网站，对此不少人都是怨声载道，好在国内不少好同学做了各种镜像站，所谓镜像站就是镜像了谷歌的搜索内容，与谷歌原生搜索结果完全相同。<br>
+要找这些网站，这个时候就要善用百度搜索了<sub>比如在百度搜索随便搜索一下相关的关键词，搜索展示的头条就是一个目前可用的镜像站</sub><br>
+<img src="https://warchanged.github.io/post-images/1586838417745.png" alt="" loading="lazy"><br>
+需要说明的是，虽然可以获取与谷歌一样的搜索结果，但是为了安全，大家不要在镜像站上登录你的谷歌账号。</li>
+<li>访问助手<br>
+大概不少同学都知道这个非常著名的访问小助手，它是一个浏览器插件，装上之后就可以直接使用谷歌了。<br>
+最出名的用的人最多的那个，使用时需要将你的主页设置成hao245才可用，当然是有破解版的，如果你在百度搜索这个助手，可以看到一条github上的项目，其实时一个破解版的维护项目，目前版本号为2.3.6。<br>
+<img src="https://warchanged.github.io/post-images/1586838485082.jpg" alt="" loading="lazy"><br>
+另外它只可以帮助你实现搜索，或者使用谷歌邮箱、应用商店。其他被禁止访问的站点比如油管、脸书依旧不可用，我估计也因为这一点这工具是安全比较长久的~<br>
+跟镜像站最大的不同是这种插件可以让你享受原生的谷歌服务了，而且速度真的非常棒！如果你只是需要一个搜索功能，这个插件绝对是最佳选择了~<br>
+3.Jsproxy<br>
+无论是镜像站还是各类助手，由于是公开化的，有时可能短暂不可用或者被封杀。如果你动手能力强，可以使用Jsproxy自己搭建一个。<br>
+Jsproxy是github上的一个开源项目，与传统的代理工具不一样，Jsproxy使用浏览器的一个黑科技 —— Service Worker。它能通过 JS 拦截网页产生的请求，并能自定义返回内容，相当于在浏览器内部实现一个反向代理。这使得绝大部分的内容处理都可以在浏览器上完成，服务器只需纯粹的转发流量。<br>
+如果你手上有一台服务器，可以在服务器上参照github的项目说明自己在服务器上搭建一个。让人欣喜的是Jsproxy是支持cfworker的，这个鉴于大部分同学没有服务器，我们就来说说cfworker无服务器版怎么搭~<br>
+小科普CloudFlare Worker 是 CloudFlare 的边缘计算服务。开发者可通过 JavaScript 对 CDN 进行编程，从而能灵活处理 HTTP 请求。这使得很多任务可在 CDN 上完成，无需自己的服务器参与。<br>
+首先，在https://workers.cloudflare.com/注册一个账号<br>
+注册账号时填写Subdomain，其实就相当于域名前缀吧，随意都可以<sub>不过注意了，这里填写提交后不能再更改了</sub><br>
+CloudFlare Worker有免费和收费版，免费版每天只能有10万次请求，个人直接选择免费版就足够用的。收费版也不贵，5美刀一月<br>
+注册成功后，点击Create a Worker创建一个Worker<br>
+创建成功后，将左侧默认的代码全部清空删除~<br>
+<img src="https://warchanged.github.io/post-images/1586838667273.jpg" alt="" loading="lazy"><br>
+然后我们访问Jsproxy项目中的index.js，将里面的全部代码拷贝进去保存即可。<br>
+<img src="https://warchanged.github.io/post-images/1586838678700.jpg" alt="" loading="lazy"><br>
+保存之后，我们便有了一个访问的地址，你可以拷贝这个网址，就可以使用谷歌搜索了。<br>
+实际的体验非常棒，想访问什么网站，点击对应的图标或者输入地址就可以访问了~而且速度也很不错。<br>
+1，小助手项目主页<br>
+https://github.com/haotian-wang/google-access-helper<br>
+2，Jsproxy项目主页<br>
+https://github.com/EtherDream/jsproxy</li>
+</ol>
 ]]></content>
     </entry>
 </feed>

@@ -1,0 +1,216 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>想用谷歌？ | Gridea</title>
+<link rel="shortcut icon" href="https://warchanged.github.io/favicon.ico?v=1586838799527">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://warchanged.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="想用谷歌？ | Gridea - Atom Feed" href="https://warchanged.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+镜像网站
+谷歌服务在国内不可用，这其中包括了谷歌学术网站，对此不少人都是怨声载道，好在国内不少好同学做了各种镜像站，所谓镜像站就是镜像了谷歌的搜索内容，与谷歌原生搜索结果完全相同。
+要找这些网站，这个时候就要善用百度搜索了比如在百度搜索随..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://warchanged.github.io">
+  <img class="avatar" src="https://warchanged.github.io/images/avatar.png?v=1586838799527" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              想用谷歌？
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-14
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <ol>
+<li>镜像网站<br>
+谷歌服务在国内不可用，这其中包括了谷歌学术网站，对此不少人都是怨声载道，好在国内不少好同学做了各种镜像站，所谓镜像站就是镜像了谷歌的搜索内容，与谷歌原生搜索结果完全相同。<br>
+要找这些网站，这个时候就要善用百度搜索了<sub>比如在百度搜索随便搜索一下相关的关键词，搜索展示的头条就是一个目前可用的镜像站</sub><br>
+<img src="https://warchanged.github.io/post-images/1586838417745.png" alt="" loading="lazy"><br>
+需要说明的是，虽然可以获取与谷歌一样的搜索结果，但是为了安全，大家不要在镜像站上登录你的谷歌账号。</li>
+<li>访问助手<br>
+大概不少同学都知道这个非常著名的访问小助手，它是一个浏览器插件，装上之后就可以直接使用谷歌了。<br>
+最出名的用的人最多的那个，使用时需要将你的主页设置成hao245才可用，当然是有破解版的，如果你在百度搜索这个助手，可以看到一条github上的项目，其实时一个破解版的维护项目，目前版本号为2.3.6。<br>
+<img src="https://warchanged.github.io/post-images/1586838485082.jpg" alt="" loading="lazy"><br>
+另外它只可以帮助你实现搜索，或者使用谷歌邮箱、应用商店。其他被禁止访问的站点比如油管、脸书依旧不可用，我估计也因为这一点这工具是安全比较长久的~<br>
+跟镜像站最大的不同是这种插件可以让你享受原生的谷歌服务了，而且速度真的非常棒！如果你只是需要一个搜索功能，这个插件绝对是最佳选择了~<br>
+3.Jsproxy<br>
+无论是镜像站还是各类助手，由于是公开化的，有时可能短暂不可用或者被封杀。如果你动手能力强，可以使用Jsproxy自己搭建一个。<br>
+Jsproxy是github上的一个开源项目，与传统的代理工具不一样，Jsproxy使用浏览器的一个黑科技 —— Service Worker。它能通过 JS 拦截网页产生的请求，并能自定义返回内容，相当于在浏览器内部实现一个反向代理。这使得绝大部分的内容处理都可以在浏览器上完成，服务器只需纯粹的转发流量。<br>
+如果你手上有一台服务器，可以在服务器上参照github的项目说明自己在服务器上搭建一个。让人欣喜的是Jsproxy是支持cfworker的，这个鉴于大部分同学没有服务器，我们就来说说cfworker无服务器版怎么搭~<br>
+小科普CloudFlare Worker 是 CloudFlare 的边缘计算服务。开发者可通过 JavaScript 对 CDN 进行编程，从而能灵活处理 HTTP 请求。这使得很多任务可在 CDN 上完成，无需自己的服务器参与。<br>
+首先，在https://workers.cloudflare.com/注册一个账号<br>
+注册账号时填写Subdomain，其实就相当于域名前缀吧，随意都可以<sub>不过注意了，这里填写提交后不能再更改了</sub><br>
+CloudFlare Worker有免费和收费版，免费版每天只能有10万次请求，个人直接选择免费版就足够用的。收费版也不贵，5美刀一月<br>
+注册成功后，点击Create a Worker创建一个Worker<br>
+创建成功后，将左侧默认的代码全部清空删除~<br>
+<img src="https://warchanged.github.io/post-images/1586838667273.jpg" alt="" loading="lazy"><br>
+然后我们访问Jsproxy项目中的index.js，将里面的全部代码拷贝进去保存即可。<br>
+<img src="https://warchanged.github.io/post-images/1586838678700.jpg" alt="" loading="lazy"><br>
+保存之后，我们便有了一个访问的地址，你可以拷贝这个网址，就可以使用谷歌搜索了。<br>
+实际的体验非常棒，想访问什么网站，点击对应的图标或者输入地址就可以访问了~而且速度也很不错。<br>
+1，小助手项目主页<br>
+https://github.com/haotian-wang/google-access-helper<br>
+2，Jsproxy项目主页<br>
+https://github.com/EtherDream/jsproxy</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'f0d78fc8f67ebdb8476a',
+    clientSecret: '1cd67c7db946ceeb9ef41551ce55effed04c3b05',
+    repo: 'warchanged.github.io',
+    owner: 'warchanged',
+    admin: ['warchanged'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://warchanged.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
